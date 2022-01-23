@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -25,6 +26,12 @@ namespace WindowsFormsApp1
 		private void button1_Click(object sender, EventArgs e)
 		{
 			lbl_openbuttontext.Text = "Get Trolled you fat fucking loser lmao";
+			
+		}
+
+		private void cb_Test1_CheckedChanged(object sender, EventArgs e)
+		{
+			
 		}
 	}
 }

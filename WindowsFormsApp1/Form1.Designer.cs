@@ -30,6 +30,7 @@
 		{
 			this.btn_Open1 = new System.Windows.Forms.Button();
 			this.lbl_openbuttontext = new System.Windows.Forms.Label();
+			this.cb_Test1 = new System.Windows.Forms.CheckBox();
 			this.SuspendLayout();
 			// 
 			// btn_Open1
@@ -52,11 +53,23 @@
 			this.lbl_openbuttontext.TabIndex = 1;
 			this.lbl_openbuttontext.Text = "This Button Does Nothing";
 			// 
+			// cb_Test1
+			// 
+			this.cb_Test1.AutoSize = true;
+			this.cb_Test1.Location = new System.Drawing.Point(925, 56);
+			this.cb_Test1.Name = "cb_Test1";
+			this.cb_Test1.Size = new System.Drawing.Size(78, 17);
+			this.cb_Test1.TabIndex = 2;
+			this.cb_Test1.Text = "TestCheck";
+			this.cb_Test1.UseVisualStyleBackColor = true;
+			this.cb_Test1.CheckedChanged += new System.EventHandler(this.cb_Test1_CheckedChanged);
+			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(1017, 582);
+			this.Controls.Add(this.cb_Test1);
 			this.Controls.Add(this.lbl_openbuttontext);
 			this.Controls.Add(this.btn_Open1);
 			this.Name = "Form1";
@@ -71,6 +84,7 @@
 
 		private System.Windows.Forms.Button btn_Open1;
 		private System.Windows.Forms.Label lbl_openbuttontext;
+		private System.Windows.Forms.CheckBox cb_Test1;
 	}
 }
 
